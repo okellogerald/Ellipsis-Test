@@ -1,0 +1,52 @@
+name: tunzaa_test
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  uuid: ^3.0.7
+  flutter_state_notifier: ^0.7.1
+  state_notifier: ^0.7.2+1
+  provider: ^6.0.5
+  freezed_annotation: ^2.1.0
+  get_it: ^7.2.0
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  freezed: ^2.1.0+1
+  build_runner: ^2.2.0
+
+dependency_overrides:
+  platform: ^3.1.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: GTWalsheimPro
+      fonts:
+        - asset: assets/GTWalsheimPro-Regular.ttf
+    - family: Euclid
+      fonts:
+        - asset: assets/EuclidCircularA-Regular.ttf
+    - family: Gopher
+      fonts:
+        - asset: assets/Gopher-Regular.ttf
+    - family: GopherMono
+      fonts:
+        - asset: assets/GopherMono-Regular.ttf
+    - family: Mabry
+      fonts:
+        - asset: assets/MabryPro-Regular.ttf
