@@ -35,18 +35,6 @@ flutter:
   uses-material-design: true
 
   fonts:
-    - family: GTWalsheimPro
-      fonts:
-        - asset: assets/GTWalsheimPro-Regular.ttf
     - family: Euclid
       fonts:
         - asset: assets/EuclidCircularA-Regular.ttf
-    - family: Gopher
-      fonts:
-        - asset: assets/Gopher-Regular.ttf
-    - family: GopherMono
-      fonts:
-        - asset: assets/GopherMono-Regular.ttf
-    - family: Mabry
-      fonts:
-        - asset: assets/MabryPro-Regular.ttf
